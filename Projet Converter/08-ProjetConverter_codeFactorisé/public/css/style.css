@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Grenze+Gotisch:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
+body {
+  background: #e1f5fe;
+}
+
+header {
+  background: #f1f8e9;
+  height: 10rem;
+  margin-top: 0.5rem;
+  color: #00695c;
+  border-right: solid 2.5rem #00695c;
+  border-left: solid 2.5rem #00695c;
+  text-align: center;
+  padding-top: 2rem;
+  font-family: "Bree Serif", serif;
+  text-transform: capitalize;
+  font-size: 3rem;
+}
+
+.form-header {
+  background: #00695c;
+  color: white;
+  margin-top: 0.2rem;
+  height: 5rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 1rem;
+  font-size: 2rem;
+  font-family: "Source Serif Pro", serif;
+}
+
+.btn-valider {
+  color: #fff;
+  background-color: #00838f;
+  border-color: #00838f;
+  height: 3rem;
+  border-radius: 0rem;
+}
+.btn-valider:hover {
+  color: #fff;
+  background-color: #26c6da;
+  border-color: #26c6da;
+}
+
+.btn-reset {
+  color: #fff;
+  background-color: #424242;
+  border-color: #424242;
+  height: 3rem;
+  border-radius: 0rem;
+}
+.btn-reset:hover {
+  color: #fff;
+  background-color: #9e9e9e;
+  border-color: #9e9e9e;
+}
+
+.appForm {
+  background: white;
+  border: solid 0.1rem teal;
+}
+.appForm form {
+  margin: 1rem;
+}
+
+main {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+}
+
+.form-control {
+  border-radius: 0rem;
+  height: 3rem;
+}
+
+#erreur, #resultat {
+  height: 4.5rem;
+  text-align: center;
+  color: white;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  margin-top: 0.2rem;
+}
+
+#resultat {
+  background: #4db6ac;
+}
+
+#erreur {
+  background: #e53935;
+}
+
+/*# sourceMappingURL=style.css.map */

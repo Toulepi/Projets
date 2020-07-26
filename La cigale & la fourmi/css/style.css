@@ -1,0 +1,301 @@
+/* #header #pied nav footer aside article{   to remove at the end of the code
+    border: 1px solid black;
+}  */
+
+            /* Les Règles Générales de base */
+
+html{
+    color: #444444;
+    font-family: "Segoe UI",Arial,Verdana,sans-serif;
+    font-size: .9em;
+    background-image: url("../img/cigale-fourmi.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+h1{
+    color: #990000;
+    font-size: 2.5em;
+    font-family: 'Piedra',sans-serif;
+    font-weight:100 ;
+    text-transform: uppercase;
+    margin: 0 0 .5em;
+}
+h2{
+    font-size: 2.5em;
+    font-family: 'Piedra',sans-serif;
+    font-weight:100 ;
+    font-variant: small-caps;
+    margin:0 ;
+}
+article p{
+    margin-left: 3em;
+}
+a{
+    color: inherit;
+}
+a[href$=".pdf"]{  /* sélectionne les liens dont l'attribut href se termine par .pdf*/
+    background-image: url("../img/pdf.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 1.75rem;
+}
+a[href$=".docx"]{
+    background-image: url("../img/word.svg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    padding-left: 1.75rem;
+}
+nav a{
+    text-decoration:none;
+}
+table , th ,td {
+    /* border: 1px solid cyan;*/
+  /*  border-collapse: collapse;  permet d'éviter des lignes double sur le tableau */
+}
+img, video, audio, figure,form {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+            /* Positionnement des éléments */
+
+/*
+#entete, #entete nav, #colGauche, #contenu, #pied, body{
+    border:1px dashed navy;
+}  */
+
+body{
+    margin: auto;  /* l'élement s'adapte automatiquement à l'écran */
+    padding-bottom: 70px; /* permet de gérer la position fixe du footer */
+    max-width: 1000px;
+    background-color: rgba(255,255,255,.7);
+}
+#entete{
+    position: relative;
+    height: 140px;
+}
+#entete nav{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#colGauche{
+    position: absolute;
+    width: 160px;
+}
+#contenu{
+    margin-left: 160px;
+}
+#pied{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 1000px;  /* largeur du Body */
+    background-color: white;
+    text-align: center;
+}
+
+
+        /* Entête */
+header{
+    background-color: #cccccc;
+    background-image:url("../img/eni-bv-64.png"), linear-gradient(to bottom,grey,chocolate);
+    background-repeat: no-repeat;
+    background-position: right 24px top 24px, 0 0;
+    background-size: 48px,cover;
+    overflow: hidden;  /* permet de masquer les éléments qui dépassent */
+}
+header h1{
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+header.bandeau h1{
+    margin: 40px 0 0 80px;
+}
+header h2{
+    font-size: 1.5rem;
+    margin-left: 40px;
+}
+header.bandeau h2{
+    background-color: rgba(0,0,0,.7);
+    color: #ffffff;
+    font-size: 1em;
+    line-height: 40px;
+    width: 160px;
+    text-align: center;
+    transform-origin: bottom left;
+    transform: translate(-40px,-20px) rotate(-40deg);
+}
+header nav{
+    margin: 0 8px;
+}
+header nav a{
+    background-color: #eee;
+    border-left: 1px solid #ccc;
+    display: inline-block;
+    padding: .2em 1em;
+}
+header nav a:first-child{
+    border-left:none ;
+    border-radius: 8px 0 0 0 ;
+}
+header nav a:last-child{
+    border-radius: 0 8px 0 0 ;
+}
+header nav a:hover{
+    background-color: #aaa ;
+}
+
+    /* ---- Menu Gauche et élt aside ---- */
+#colGauche nav{
+    border-radius: 0 15px;
+}
+aside{
+    text-align: center;
+}
+
+    /* ---- fable (class="fable") ---- */
+
+.fable{
+    background-color: #990000;
+    color: white;
+    font-family: "Indie Flower", cursive;
+    font-size:1em ;
+    line-height: 1.6em;
+    letter-spacing: .1em ;
+    font-style: italic;
+    max-width: 80%;
+    padding: 1em;
+    border-radius: 1.5em ;
+    height: 1em;
+    width: 6.5em;
+    overflow: hidden;
+    white-space:nowrap ;  /* to adjust */
+    text-overflow: ellipsis ;
+    transition:height .4s,width .7s .3s;
+}
+.fable:hover {
+    height: 100%;
+    width: 100%;
+    white-space: normal;
+    transition: height .4s .5s, width .6s;
+    text-align: justify;
+}
+
+        /* ----menu (class="menu") ---- */
+
+.menu{
+    background-color: #990000;
+    color:#fff;
+}
+.menu a {
+    display: block;
+    padding: .5em 1em;
+    /* border-bottom: 1px solid #cccccc; */
+    transition: background-color .4s;
+}
+.menu a:hover{
+    color: red;
+    background-color: #eee;
+}
+
+/* ---- tableau (class="mon-tableau") ---- */
+
+.mon-tableau{
+   /* border-collapse:collapse ;*/
+    border: 1px solid;
+}
+.mon-tableau th, .mon-tableau td{
+    padding: .5em 1em;
+}
+.mon-tableau thead{
+    background-color:#0088AA ;
+    background-image: linear-gradient(to bottom, grey,chocolate);
+    color: #ffffff;
+}
+.mon-tableau tbody{
+    border-bottom: 1px solid #999999;
+}
+.mon-tableau tbody tr:nth-child(odd){
+    background-color: #eeeeee;
+}
+.mon-tableau tbody tr:nth-child(even){
+    background-color: #cccccc;
+}
+.mon-tableau tbody td {
+    border: 1px solid #999999;
+    /*border-style: none;*/
+}
+#table-population.mon-tableau tbody td:last-child{
+    text-align: right;
+    background-color: rgba(205,200,0,.5);
+}
+
+/* ---- formulaire (class='mon-formulaire") ---- */
+
+.mon-formulaire{
+    border: 1px solid #555555;
+    width: 50%;
+    padding: 1.5em;
+}
+
+.mon-formulaire label{
+    display:inline-block ;
+    width:120px;
+    margin: 4px 0;
+    vertical-align: top;
+}
+
+.mon-formulaire > input:not([type="checkbox"]), /* élts 'input' du formulaire qui ne sont pas du type 'checkbox' */
+.mon-formulaire textarea{
+    /*display:inline-block;*/
+    box-sizing:border-box ;
+    width: 220px;
+    margin: 8px 0;
+    border-radius:0.3em ;
+}
+
+
+.mon-formulaire button{
+    display: inline-block;
+    margin: 8px 0;
+}
+.mon-formulaire fieldset label{
+    width: 60px;
+}
+
+/* ----Présentation Adaptative---- */
+
+@media screen and (max-width: 720px){
+    aside{
+        display: none;
+    }
+    #colGauche{
+        position: static;
+        width: auto;
+    }
+    #contenu{
+        margin-left: 0;
+    }
+    body{
+        padding-bottom:0 ;
+    }
+    #pied{
+        position: static;
+    }
+    .menu{
+        text-align: center;
+    }
+    .menu a{
+        display: block;
+    }
+}
+
+
+
+
+
+
+

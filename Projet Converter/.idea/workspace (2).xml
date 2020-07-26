@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c5c095d9-fbcf-4b68-8a96-4264c62a10cd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="55424c47-f180-4d3c-9e75-47ba715d3f8c" name="Apache" />
+    </servers>
+  </component>
+  <component name="ProjectId" id="1eRc6NvlY0KbAd50koeVAE1G5DN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.php.debug.servers" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Apache" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="Apache" start_url="/projetconverter">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c5c095d9-fbcf-4b68-8a96-4264c62a10cd" name="Default Changelist" comment="" />
+      <created>1594287670016</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594287670016</updated>
+      <workItem from="1594287679849" duration="4839000" />
+      <workItem from="1595012947763" duration="23000" />
+      <workItem from="1595576374944" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="459" y="106" key="#Web_Browsers" timestamp="1594287970541">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="459" y="106" key="#Web_Browsers/0.0.1366.738@0.0.1366.738" timestamp="1594287970541" />
+    <state x="133" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594290738671">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="133" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1594290738671" />
+    <state x="74" y="0" key="SettingsEditor" timestamp="1594287908258">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="74" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1594287908258" />
+  </component>
+</project>

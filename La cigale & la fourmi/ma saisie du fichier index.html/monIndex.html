@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
+        <title>Formation HTML5 &amp; CSS3</title>
+    </head>
+    <body>
+        <header id="header" class="bandeau">
+            <h1>HTML5 &amp; CSS3</h1>
+            <h2>Nouveautés</h2>
+            <div>
+                <a href="#">Accueil</a>
+                <a href="#">Contact</a>
+                <a href="#">Aides</a>
+            </div>
+        </header>
+
+        <div id="colGauche">
+            <div class="menu" >
+                <a href="#fable">Cigale et Fourmi</a>
+                <a href="#illustration">Illustration</a>
+                <a href="#telechargement">Téléchargement</a>
+                <a href="#lien">Lien</a>
+                <a href="#media">Média</a>
+                <a href="#population">Population</a>
+                <a href="#inscription">Inscription</a>
+            </div>
+            <div>
+                <h2>Dicton du Jour</h2>
+                <p>Le vent de novembre arrache la dernière.</p>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <h2 id="fable">La Cigale et la Fourmi</h2>
+                <blockquote>
+                    La Cigale, ayant chanté tout l'été, se trouva fort dépourvue quand la bise fut venue: pas un seul petit
+                    morceau
+                    de mouche ou de vermisseau. Elle alla crier famine chez la Fourmi sa voisine, la priant de lui prêter
+                    quelque grain pour subsister
+                    jusqu'à la saison nouvelle.
+                    <q>
+                        Je vous paierai, lui dit-elle, avant l'Oût, foi d'animal, intérêt et
+                        principal.
+                    </q>
+                    La Fourmi n'est pas prêteuse : C'est là son moindre défaut. Que faisiez-vous au temps chaud? Dit-elle à
+                    cette emprunteuse.
+                    <br/>- Nuit et jour à tout venant, je chantais, ne vous déplaise.
+                    <br/>- Vous chantiez ? j'en suis fort aise. Et bien, dansez maintenant.
+                </blockquote>
+                <p>
+                    <!-- TODO -->
+                </p>
+            </div>
+            <div>
+                <h2 id="illustration">Illustration</h2>
+                <figure>
+                    <img src=""/>
+                    <figcaption>Illustration de la fable La Cigale et la Fourmi</figcaption>
+                </figure>
+            </div>
+            <div>
+                <h2 id="telechargement">Téléchargement</h2>
+                <!-- TODO -->
+            </div>
+            <div>
+                <h2 id="lien">Lien</h2>
+                <a href="http://fr.wikipedia.org/wiki/La_Cigale_et_la_Fourmi" target="_blank">Wikipedia</a>
+            </div>
+            <div id="media">
+                <h2>Vidéo</h2>
+                <video controls src="">
+                    <span>Le format mp4 n'est aps supporté par votre navigateur</span>
+                </video>
+                <h2>Audio</h2>
+                <audio controls src="">
+                    <span>Le format mp3 n'est aps supporté par votre navigateur</span>
+                </audio>
+            </div>
+            <div>
+                <h2 id="population">Population</h2>
+                <table>
+                    <caption>Population des plus grandes villes de France</caption>
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th>Ville</th>
+                        <th>Région</th>
+                        <th>1<sup>er</sup> janvier 2007</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Paris</td>
+                        <td>&Icirc;le de France</td>
+                        <td>2&nbsp;193&nbsp;030</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Marseille</td>
+                        <td>Provence-Alpes-Côte d'Azur</td>
+                        <td>852&nbsp;395</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Lyon</td>
+                        <td>Rhône-Alpes</td>
+                        <td>472&nbsp;330</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Toulouse</td>
+                        <td>Midi-Pyrénées</td>
+                        <td>439&nbsp;453</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Nice</td>
+                        <td>Provence-Alpes-Côte d'Azur</td>
+                        <td>348&nbsp;721</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Nantes</td>
+                        <td>Pays de la Loire</td>
+                        <td>283&nbsp;025</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Strasbourg</td>
+                        <td>Alsace</td>
+                        <td>272&nbsp;123</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Montpellier</td>
+                        <td>Languedoc-Roussillon</td>
+                        <td>253&nbsp;712</td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                    <tr>
+                        <td colspan="4">
+                            <small>mise à jour le 1<sup>er</sup> janvier 2008</small>
+                        </td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div>
+                <h2 id="inscription">Inscription</h2>
+                <form method="post" >
+                    <label for="nom">Nom *</label>
+                    <input type="text" id="nom" name="nom" required/>
+                    <br/>
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" name="prenom"/>
+                    <br/>
+                    <label for="adresse">Adresse</label>
+                    <textarea id="adresse" name="adresse" rows="3"></textarea>
+                    <br/>
+                    <label for="cp">Code Postal</label>
+                    <input type="number" id="cp" name="cp" min="1000" max="99999" step="1"/>
+                    <br/>
+                    <label for="ville">Ville</label>
+                    <input type="text" id="ville" name="ville" list="listeVilles"/>
+                    <datalist id="listeVilles">
+                        <option value="Nantes"></option>
+                        <option value="Rennes"></option>
+                        <option value="Niort"></option>
+                        <option value="Nice"></option>
+                        <option value="Paris"></option>
+                    </datalist>
+                    <br/>
+                    <label for="naiss">Date Naissance</label>
+                    <input type="date" id="naiss" name="naiss"/>
+                    <br/>
+                    <label for="news">Newsletter</label>
+                    <input type="checkbox" id="news" name="news" value="news" checked/>
+                    <br/>
+                    <fieldset>
+                        <legend>Réglement</legend>
+                        <input type="radio" id="regl-cheque" name="regl" value="cheque"/>
+                        <label for="regl-cheque">Chèque</label>
+                        <input type="radio" id="regl-cb" name="regl" value="cb" checked/>
+                        <label for="regl-cb">CB</label>
+                        <input type="radio" id="regl-especes" name="regl" value="especes"/>
+                        <label for="regl-especes">Espèces</label>
+                    </fieldset>
+                    <button type="submit">Envoyer</button>
+                    <button type="reset">Effacer</button>
+                </form>
+            </div>
+        </div>
+        <footer id="pied">
+            <span>7 bis Avenue Jacques Cartier, Saint Herblain</span>
+        </footer>
+
+    </body>
+</html>
