@@ -1,0 +1,17 @@
+Categorie: idCategorie, description
+appartenir, 11 Livre, 0N Categorie
+
+Auteur: idAuteur,nom,prenom, titre
+travailler, 1N Auteur, 1N Editeur
+Editeur: idEditeur,maison_edition,date_parution
+editer ,11 Livre,1N Editeur
+Livre: idLivre, titre, prix, ISBN, date_Parution, maison_edition, auteur
+correspondre, 0N Livre, 11 Exemplaire:quantité
+Exemplaire: idExemplaire
+contenir, 1N Commande, 11 Exemplaire:quantite 
+Commande: idCommande, numero
+passer, 0N Client, 11 Commande : DateCommande
+Client: idClient, nom, email, mdp
+
+rediger,0N Livre, 1N Auteur
+

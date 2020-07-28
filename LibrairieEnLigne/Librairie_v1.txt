@@ -1,0 +1,15 @@
+Categorie: idTheme,idLivre,enfant,jeunesse,adulte,sport,BD,Roman,Poesie,nouvelles
+
+appartenir, 01 Livre, 0N Categorie
+
+Evenement: idAuteur,theme,date
+prepare, 0N Evenement, 1N Auteur
+Auteur: idAuteur, idEditeur,nom,prenom, titre,theme, collection
+travailler, 1N Auteur, 1N Editeur
+Editeur: idEditeur,idAuteur,idTitre,ISBN,maison_edition,date_parution
+editer ,1N Livre,11 Editeur
+Livre: idLivre, titre, prix, ISBN, theme, date_Parution, img, maison_edition, auteur
+contenir, 0N Commande, 0N Livre:quantite 
+Commande: idCommande, numero
+passer, 0N Client, 11 Commande : DateCommande
+Client: idClient, nom, email, mdp

@@ -1,0 +1,103 @@
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+  #mld .relation { font-variant: small-caps; font-weight: bold }
+  #mld .primary { text-decoration: underline }
+  #mld .foreign { font-style: oblique }
+  #mld .normal { }
+</style>
+</head>
+<body>
+<div id='mld'>
+<div>
+  <span class='relation'>Categorie</span> (
+    <span class='primary'>idCategorie</span>,
+    <span class='normal'>description</span>
+  )
+</div>
+<div>
+  <span class='relation'>Evenement</span> (
+    <span class='primary'>idAuteur</span>,
+    <span class='normal'>theme</span>,
+    <span class='normal'>date</span>
+  )
+</div>
+<div>
+  <span class='relation'>preparer</span> (
+    <span class='foreign primary'>idAuteur</span>,
+    <span class='foreign primary'>idAuteur.1</span>
+  )
+</div>
+<div>
+  <span class='relation'>Auteur</span> (
+    <span class='primary'>idAuteur</span>,
+    <span class='normal'>nom</span>,
+    <span class='normal'>prenom</span>,
+    <span class='normal'>titre</span>,
+    <span class='normal'>theme</span>,
+    <span class='normal'>collection</span>
+  )
+</div>
+<div>
+  <span class='relation'>travailler</span> (
+    <span class='foreign primary'>idAuteur</span>,
+    <span class='foreign primary'>idEditeur</span>
+  )
+</div>
+<div>
+  <span class='relation'>Editeur</span> (
+    <span class='primary'>idEditeur</span>,
+    <span class='normal'>ISBN</span>,
+    <span class='normal'>maison_edition</span>,
+    <span class='normal'>date_parution</span>,
+    <span class='foreign'>idLivre</span>
+  )
+</div>
+<div>
+  <span class='relation'>Livre</span> (
+    <span class='primary'>idLivre</span>,
+    <span class='normal'>titre</span>,
+    <span class='normal'>prix</span>,
+    <span class='normal'>ISBN</span>,
+    <span class='normal'>date_Parution</span>,
+    <span class='normal'>img</span>,
+    <span class='normal'>maison_edition</span>,
+    <span class='normal'>auteur</span>,
+    <span class='foreign'>idCategorie</span>
+  )
+</div>
+<div>
+  <span class='relation'>Exemplaire</span> (
+    <span class='primary'>idExemplaire</span>,
+    <span class='foreign'>idCommande</span>,
+    <span class='normal'>quantite</span>,
+    <span class='foreign'>idLivre</span>,
+    <span class='normal'>quantité</span>
+  )
+</div>
+<div>
+  <span class='relation'>Commande</span> (
+    <span class='primary'>idCommande</span>,
+    <span class='normal'>numero</span>,
+    <span class='foreign'>idClient</span>,
+    <span class='normal'>DateCommande</span>
+  )
+</div>
+<div>
+  <span class='relation'>Client</span> (
+    <span class='primary'>idClient</span>,
+    <span class='normal'>nom</span>,
+    <span class='normal'>email</span>,
+    <span class='normal'>mdp</span>
+  )
+</div>
+<div>
+  <span class='relation'>rediger</span> (
+    <span class='foreign primary'>idLivre</span>,
+    <span class='foreign primary'>idAuteur</span>
+  )
+</div>
+</div>
+</body>
+</html>

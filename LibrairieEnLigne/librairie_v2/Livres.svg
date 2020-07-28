@@ -1,0 +1,243 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="1757" height="369" view_box="0 0 1757 369"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:link="http://www.w3.org/1999/xlink">\n\n<desc>Généré par Mocodo 2.3.7 le Mon, 27 Jul 2020 07:06:55</desc>
+
+<rect id="frame" x="0" y="0" width="1757" height="369" fill="#fefeec" stroke="none" stroke-width="0"/>
+
+<!-- Association passer -->
+<line x1="1709" y1="189" x2="1582" y2="189" stroke="#060100" stroke-width="1"/>
+<text x="1646" y="205.0" fill="#060100" font-family="Futura" font-size="11">0,N</text>
+<line x1="1439" y1="189" x2="1582" y2="189" stroke="#060100" stroke-width="1"/>
+<text x="1499" y="205.0" fill="#060100" font-family="Futura" font-size="11">1,1</text>
+<g id="association-passer">
+	<path d="M 1627 160 a 14 14 90 0 1 14 14 V 188 h -118 V 174 a 14 14 90 0 1 14 -14" fill="#081a84" stroke="#081a84" stroke-width="0"/>
+	<path d="M 1641 188.0 v 16 a 14 14 90 0 1 -14 14 H 1537 a 14 14 90 0 1 -14 -14 V 188.0 H 118" fill="#fefeec" stroke="#fefeec" stroke-width="0"/>
+	<rect x="1523" y="160" width="118" height="58" fill="none" rx="14" stroke="#060100" stroke-width="1.5"/>
+	<line x1="1523" y1="188" x2="1641" y2="188" stroke="#060100" stroke-width="1.5"/>
+	<text x="1551" y="181.3" fill="#fefeec" font-family="Copperplate" font-size="18">passer</text>
+	<text x="1530" y="206.1" fill="#060100" font-family="Gill Sans" font-size="15">DateCommande</text>
+</g>
+
+<!-- Association rediger -->
+<line x1="852" y1="189" x2="600" y2="331" stroke="#060100" stroke-width="1"/>
+<text x="772" y="216.937536818" fill="#060100" font-family="Futura" font-size="11">0,N</text>
+<line x1="323" y1="189" x2="600" y2="331" stroke="#060100" stroke-width="1"/>
+<text x="370" y="206.535006319" fill="#060100" font-family="Futura" font-size="11">1,N</text>
+<g id="association-rediger">
+	<path d="M 629 302 a 14 14 90 0 1 14 14 V 330 h -86 V 316 a 14 14 90 0 1 14 -14" fill="#081a84" stroke="#081a84" stroke-width="0"/>
+	<path d="M 643 330.0 v 16 a 14 14 90 0 1 -14 14 H 571 a 14 14 90 0 1 -14 -14 V 330.0 H 86" fill="#fefeec" stroke="#fefeec" stroke-width="0"/>
+	<rect x="557" y="302" width="86" height="58" fill="none" rx="14" stroke="#060100" stroke-width="1.5"/>
+	<line x1="557" y1="330" x2="643" y2="330" stroke="#060100" stroke-width="1.5"/>
+	<text x="564" y="323.3" fill="#fefeec" font-family="Copperplate" font-size="18">rediger</text>
+</g>
+
+<!-- Association contenir -->
+<line x1="1439" y1="189" x2="1307" y2="189" stroke="#060100" stroke-width="1"/>
+<text x="1360" y="205.0" fill="#060100" font-family="Futura" font-size="11">1,N</text>
+<line x1="1170" y1="189" x2="1307" y2="189" stroke="#060100" stroke-width="1"/>
+<text x="1235" y="205.0" fill="#060100" font-family="Futura" font-size="11">1,1</text>
+<g id="association-contenir">
+	<path d="M 1341 160 a 14 14 90 0 1 14 14 V 188 h -96 V 174 a 14 14 90 0 1 14 -14" fill="#081a84" stroke="#081a84" stroke-width="0"/>
+	<path d="M 1355 188.0 v 16 a 14 14 90 0 1 -14 14 H 1273 a 14 14 90 0 1 -14 -14 V 188.0 H 96" fill="#fefeec" stroke="#fefeec" stroke-width="0"/>
+	<rect x="1259" y="160" width="96" height="58" fill="none" rx="14" stroke="#060100" stroke-width="1.5"/>
+	<line x1="1259" y1="188" x2="1355" y2="188" stroke="#060100" stroke-width="1.5"/>
+	<text x="1266" y="181.3" fill="#fefeec" font-family="Copperplate" font-size="18">contenir</text>
+	<text x="1266" y="206.1" fill="#060100" font-family="Gill Sans" font-size="15">quantite</text>
+</g>
+
+<!-- Association appartenir -->
+<line x1="852" y1="189" x2="852" y2="47" stroke="#060100" stroke-width="1"/>
+<text x="857.0" y="92" fill="#060100" font-family="Futura" font-size="11">1,1</text>
+<line x1="712" y1="47" x2="852" y2="47" stroke="#060100" stroke-width="1"/>
+<text x="771" y="63.0" fill="#060100" font-family="Futura" font-size="11">0,N</text>
+<g id="association-appartenir">
+	<path d="M 895 18 a 14 14 90 0 1 14 14 V 46 h -114 V 32 a 14 14 90 0 1 14 -14" fill="#081a84" stroke="#081a84" stroke-width="0"/>
+	<path d="M 909 46.0 v 16 a 14 14 90 0 1 -14 14 H 809 a 14 14 90 0 1 -14 -14 V 46.0 H 114" fill="#fefeec" stroke="#fefeec" stroke-width="0"/>
+	<rect x="795" y="18" width="114" height="58" fill="none" rx="14" stroke="#060100" stroke-width="1.5"/>
+	<line x1="795" y1="46" x2="909" y2="46" stroke="#060100" stroke-width="1.5"/>
+	<text x="802" y="39.3" fill="#fefeec" font-family="Copperplate" font-size="18">appartenir</text>
+</g>
+
+<!-- Association travailler -->
+<line x1="323" y1="189" x2="450" y2="189" stroke="#060100" stroke-width="1"/>
+<text x="370" y="181.0" fill="#060100" font-family="Futura" font-size="11">1,N</text>
+<line x1="591" y1="189" x2="450" y2="189" stroke="#060100" stroke-width="1"/>
+<text x="511" y="205.0" fill="#060100" font-family="Futura" font-size="11">1,N</text>
+<g id="association-travailler">
+	<path d="M 492 160 a 14 14 90 0 1 14 14 V 188 h -112 V 174 a 14 14 90 0 1 14 -14" fill="#081a84" stroke="#081a84" stroke-width="0"/>
+	<path d="M 506 188.0 v 16 a 14 14 90 0 1 -14 14 H 408 a 14 14 90 0 1 -14 -14 V 188.0 H 112" fill="#fefeec" stroke="#fefeec" stroke-width="0"/>
+	<rect x="394" y="160" width="112" height="58" fill="none" rx="14" stroke="#060100" stroke-width="1.5"/>
+	<line x1="394" y1="188" x2="506" y2="188" stroke="#060100" stroke-width="1.5"/>
+	<text x="401" y="181.3" fill="#fefeec" font-family="Copperplate" font-size="18">travailler</text>
+</g>
+
+<!-- Association editer -->
+<line x1="852" y1="189" x2="712" y2="189" stroke="#060100" stroke-width="1"/>
+<text x="772" y="205.0" fill="#060100" font-family="Futura" font-size="11">1,N</text>
+<line x1="591" y1="189" x2="712" y2="189" stroke="#060100" stroke-width="1"/>
+<text x="652" y="205.0" fill="#060100" font-family="Futura" font-size="11">1,1</text>
+<g id="association-editer">
+	<path d="M 734 160 a 14 14 90 0 1 14 14 V 188 h -72 V 174 a 14 14 90 0 1 14 -14" fill="#081a84" stroke="#081a84" stroke-width="0"/>
+	<path d="M 748 188.0 v 16 a 14 14 90 0 1 -14 14 H 690 a 14 14 90 0 1 -14 -14 V 188.0 H 72" fill="#fefeec" stroke="#fefeec" stroke-width="0"/>
+	<rect x="676" y="160" width="72" height="58" fill="none" rx="14" stroke="#060100" stroke-width="1.5"/>
+	<line x1="676" y1="188" x2="748" y2="188" stroke="#060100" stroke-width="1.5"/>
+	<text x="683" y="181.3" fill="#fefeec" font-family="Copperplate" font-size="18">editer</text>
+</g>
+
+<!-- Association preparer -->
+<line x1="67" y1="189" x2="203" y2="189" stroke="#060100" stroke-width="1"/>
+<text x="130" y="205.0" fill="#060100" font-family="Futura" font-size="11">0,N</text>
+<line x1="323" y1="189" x2="203" y2="189" stroke="#060100" stroke-width="1"/>
+<text x="257" y="205.0" fill="#060100" font-family="Futura" font-size="11">1,N</text>
+<g id="association-preparer">
+	<path d="M 238 160 a 14 14 90 0 1 14 14 V 188 h -98 V 174 a 14 14 90 0 1 14 -14" fill="#081a84" stroke="#081a84" stroke-width="0"/>
+	<path d="M 252 188.0 v 16 a 14 14 90 0 1 -14 14 H 168 a 14 14 90 0 1 -14 -14 V 188.0 H 98" fill="#fefeec" stroke="#fefeec" stroke-width="0"/>
+	<rect x="154" y="160" width="98" height="58" fill="none" rx="14" stroke="#060100" stroke-width="1.5"/>
+	<line x1="154" y1="188" x2="252" y2="188" stroke="#060100" stroke-width="1.5"/>
+	<text x="161" y="181.3" fill="#fefeec" font-family="Copperplate" font-size="18">preparer</text>
+</g>
+
+<!-- Association correspondre -->
+<line x1="852" y1="189" x2="1009" y2="189" stroke="#060100" stroke-width="1"/>
+<text x="913" y="205.0" fill="#060100" font-family="Futura" font-size="11">0,N</text>
+<line x1="1170" y1="189" x2="1009" y2="189" stroke="#060100" stroke-width="1"/>
+<text x="1087" y="205.0" fill="#060100" font-family="Futura" font-size="11">1,1</text>
+<g id="association-correspondre">
+	<path d="M 1067 160 a 14 14 90 0 1 14 14 V 188 h -144 V 174 a 14 14 90 0 1 14 -14" fill="#081a84" stroke="#081a84" stroke-width="0"/>
+	<path d="M 1081 188.0 v 16 a 14 14 90 0 1 -14 14 H 951 a 14 14 90 0 1 -14 -14 V 188.0 H 144" fill="#fefeec" stroke="#fefeec" stroke-width="0"/>
+	<rect x="937" y="160" width="144" height="58" fill="none" rx="14" stroke="#060100" stroke-width="1.5"/>
+	<line x1="937" y1="188" x2="1081" y2="188" stroke="#060100" stroke-width="1.5"/>
+	<text x="944" y="181.3" fill="#fefeec" font-family="Copperplate" font-size="18">correspondre</text>
+	<text x="944" y="206.1" fill="#060100" font-family="Gill Sans" font-size="15">quantité</text>
+</g>
+
+<!-- Entity Livre -->
+<g id="entity-Livre">
+	<g id="frame-Livre">
+		<rect x="796" y="100" width="112" height="30" fill="#c6281b" stroke="#c6281b" stroke-width="0"/>
+		<rect x="796" y="130.0" width="112" height="148" fill="#fced5f" stroke="#fced5f" stroke-width="0"/>
+		<rect x="796" y="100" width="112" height="178" fill="none" stroke="#060100" stroke-width="1.5"/>
+		<line x1="796" y1="130" x2="908" y2="130" stroke="#060100" stroke-width="1.5"/>
+	</g>
+	<text x="827" y="121.3" fill="#fefeec" font-family="Copperplate" font-size="18">Livre</text>
+	<text x="804" y="147.0" fill="#060100" font-family="Gill Sans" font-size="15">idLivre</text>
+	<line x1="804" y1="150" x2="847" y2="150" stroke="#060100" stroke-width="1"/>
+	<text x="804" y="164.1" fill="#060100" font-family="Gill Sans" font-size="15">titre</text>
+	<text x="804" y="181.1" fill="#060100" font-family="Gill Sans" font-size="15">prix</text>
+	<text x="804" y="198.1" fill="#060100" font-family="Gill Sans" font-size="15">ISBN</text>
+	<text x="804" y="215.1" fill="#060100" font-family="Gill Sans" font-size="15">date_Parution</text>
+	<text x="804" y="232.0" fill="#060100" font-family="Gill Sans" font-size="15">img</text>
+	<text x="804" y="249.0" fill="#060100" font-family="Gill Sans" font-size="15">maison_edition</text>
+	<text x="804" y="266.0" fill="#060100" font-family="Gill Sans" font-size="15">auteur</text>
+</g>
+
+<!-- Entity Categorie -->
+<g id="entity-Categorie">
+	<g id="frame-Categorie">
+		<rect x="658" y="9" width="108" height="30" fill="#c6281b" stroke="#c6281b" stroke-width="0"/>
+		<rect x="658" y="39.0" width="108" height="46" fill="#fced5f" stroke="#fced5f" stroke-width="0"/>
+		<rect x="658" y="9" width="108" height="76" fill="none" stroke="#060100" stroke-width="1.5"/>
+		<line x1="658" y1="39" x2="766" y2="39" stroke="#060100" stroke-width="1.5"/>
+	</g>
+	<text x="666" y="30.3" fill="#fefeec" font-family="Copperplate" font-size="18">Categorie</text>
+	<text x="666" y="56.1" fill="#060100" font-family="Gill Sans" font-size="15">idCategorie</text>
+	<line x1="666" y1="59" x2="740" y2="59" stroke="#060100" stroke-width="1"/>
+	<text x="666" y="73.1" fill="#060100" font-family="Gill Sans" font-size="15">description</text>
+</g>
+
+<!-- Entity Evenement -->
+<g id="entity-Evenement">
+	<g id="frame-Evenement">
+		<rect x="9" y="142" width="116" height="30" fill="#c6281b" stroke="#c6281b" stroke-width="0"/>
+		<rect x="9" y="172.0" width="116" height="64" fill="#fced5f" stroke="#fced5f" stroke-width="0"/>
+		<rect x="9" y="142" width="116" height="94" fill="none" stroke="#060100" stroke-width="1.5"/>
+		<line x1="9" y1="172" x2="125" y2="172" stroke="#060100" stroke-width="1.5"/>
+	</g>
+	<text x="17" y="163.3" fill="#fefeec" font-family="Copperplate" font-size="18">Evenement</text>
+	<text x="17" y="189.1" fill="#060100" font-family="Gill Sans" font-size="15">idAuteur</text>
+	<line x1="17" y1="192" x2="73" y2="192" stroke="#060100" stroke-width="1"/>
+	<text x="17" y="206.1" fill="#060100" font-family="Gill Sans" font-size="15">theme</text>
+	<text x="17" y="223.0" fill="#060100" font-family="Gill Sans" font-size="15">date</text>
+</g>
+
+<!-- Entity Client -->
+<g id="entity-Client">
+	<g id="frame-Client">
+		<rect x="1670" y="134" width="78" height="30" fill="#c6281b" stroke="#c6281b" stroke-width="0"/>
+		<rect x="1670" y="164.0" width="78" height="80" fill="#fced5f" stroke="#fced5f" stroke-width="0"/>
+		<rect x="1670" y="134" width="78" height="110" fill="none" stroke="#060100" stroke-width="1.5"/>
+		<line x1="1670" y1="164" x2="1748" y2="164" stroke="#060100" stroke-width="1.5"/>
+	</g>
+	<text x="1678" y="155.3" fill="#fefeec" font-family="Copperplate" font-size="18">Client</text>
+	<text x="1678" y="181.1" fill="#060100" font-family="Gill Sans" font-size="15">idClient</text>
+	<line x1="1678" y1="184" x2="1728" y2="184" stroke="#060100" stroke-width="1"/>
+	<text x="1678" y="198.1" fill="#060100" font-family="Gill Sans" font-size="15">nom</text>
+	<text x="1678" y="215.1" fill="#060100" font-family="Gill Sans" font-size="15">email</text>
+	<text x="1678" y="232.0" fill="#060100" font-family="Gill Sans" font-size="15">mdp</text>
+</g>
+
+<!-- Entity Auteur -->
+<g id="entity-Auteur">
+	<g id="frame-Auteur">
+		<rect x="281" y="117" width="84" height="30" fill="#c6281b" stroke="#c6281b" stroke-width="0"/>
+		<rect x="281" y="147.0" width="84" height="114" fill="#fced5f" stroke="#fced5f" stroke-width="0"/>
+		<rect x="281" y="117" width="84" height="144" fill="none" stroke="#060100" stroke-width="1.5"/>
+		<line x1="281" y1="147" x2="365" y2="147" stroke="#060100" stroke-width="1.5"/>
+	</g>
+	<text x="289" y="138.3" fill="#fefeec" font-family="Copperplate" font-size="18">Auteur</text>
+	<text x="289" y="164.1" fill="#060100" font-family="Gill Sans" font-size="15">idAuteur</text>
+	<line x1="289" y1="167" x2="345" y2="167" stroke="#060100" stroke-width="1"/>
+	<text x="289" y="181.1" fill="#060100" font-family="Gill Sans" font-size="15">nom</text>
+	<text x="289" y="198.1" fill="#060100" font-family="Gill Sans" font-size="15">prenom</text>
+	<text x="289" y="215.1" fill="#060100" font-family="Gill Sans" font-size="15">titre</text>
+	<text x="289" y="232.0" fill="#060100" font-family="Gill Sans" font-size="15">theme</text>
+	<text x="289" y="249.0" fill="#060100" font-family="Gill Sans" font-size="15">collection</text>
+</g>
+
+<!-- Entity Editeur -->
+<g id="entity-Editeur">
+	<g id="frame-Editeur">
+		<rect x="535" y="134" width="112" height="30" fill="#c6281b" stroke="#c6281b" stroke-width="0"/>
+		<rect x="535" y="164.0" width="112" height="80" fill="#fced5f" stroke="#fced5f" stroke-width="0"/>
+		<rect x="535" y="134" width="112" height="110" fill="none" stroke="#060100" stroke-width="1.5"/>
+		<line x1="535" y1="164" x2="647" y2="164" stroke="#060100" stroke-width="1.5"/>
+	</g>
+	<text x="555" y="155.3" fill="#fefeec" font-family="Copperplate" font-size="18">Editeur</text>
+	<text x="543" y="181.1" fill="#060100" font-family="Gill Sans" font-size="15">idEditeur</text>
+	<line x1="543" y1="184" x2="600" y2="184" stroke="#060100" stroke-width="1"/>
+	<text x="543" y="198.1" fill="#060100" font-family="Gill Sans" font-size="15">ISBN</text>
+	<text x="543" y="215.1" fill="#060100" font-family="Gill Sans" font-size="15">maison_edition</text>
+	<text x="543" y="232.0" fill="#060100" font-family="Gill Sans" font-size="15">date_parution</text>
+</g>
+
+<!-- Entity Commande -->
+<g id="entity-Commande">
+	<g id="frame-Commande">
+		<rect x="1384" y="151" width="110" height="30" fill="#c6281b" stroke="#c6281b" stroke-width="0"/>
+		<rect x="1384" y="181.0" width="110" height="46" fill="#fced5f" stroke="#fced5f" stroke-width="0"/>
+		<rect x="1384" y="151" width="110" height="76" fill="none" stroke="#060100" stroke-width="1.5"/>
+		<line x1="1384" y1="181" x2="1494" y2="181" stroke="#060100" stroke-width="1.5"/>
+	</g>
+	<text x="1392" y="172.3" fill="#fefeec" font-family="Copperplate" font-size="18">Commande</text>
+	<text x="1392" y="198.1" fill="#060100" font-family="Gill Sans" font-size="15">idCommande</text>
+	<line x1="1392" y1="201" x2="1476" y2="201" stroke="#060100" stroke-width="1"/>
+	<text x="1392" y="215.1" fill="#060100" font-family="Gill Sans" font-size="15">numero</text>
+</g>
+
+<!-- Entity Exemplaire -->
+<g id="entity-Exemplaire">
+	<g id="frame-Exemplaire">
+		<rect x="1110" y="159" width="120" height="30" fill="#c6281b" stroke="#c6281b" stroke-width="0"/>
+		<rect x="1110" y="189.0" width="120" height="30" fill="#fced5f" stroke="#fced5f" stroke-width="0"/>
+		<rect x="1110" y="159" width="120" height="60" fill="none" stroke="#060100" stroke-width="1.5"/>
+		<line x1="1110" y1="189" x2="1230" y2="189" stroke="#060100" stroke-width="1.5"/>
+	</g>
+	<text x="1118" y="180.3" fill="#fefeec" font-family="Copperplate" font-size="18">Exemplaire</text>
+	<text x="1118" y="206.1" fill="#060100" font-family="Gill Sans" font-size="15">idExemplaire</text>
+	<line x1="1118" y1="209" x2="1199" y2="209" stroke="#060100" stroke-width="1"/>
+</g>
+</svg>

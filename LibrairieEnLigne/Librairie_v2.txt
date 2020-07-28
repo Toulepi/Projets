@@ -1,0 +1,98 @@
+LivrePourEnfants: idLivrePourEnfants, 0-3ans, 4-7ans, 8-10ans, ados
+inventorier, 0N Categorie, 11 LivrePourEnfants
+litterature: idLitterature, roman, romance, roman en poche, police et thriller, fantasy science fiction
+1inventorier, 0N Categorie, 11 litterature
+BD_Humour: idBD_Humour, BD, BD pour enfant, mangas, commics
+2inventorier, 0N Categorie, 11 BD_Humour
+livreScolaire: idLivreScolaire, Maternelle, Primaire, Collége, Lycée, Université
+3inventorier, 0N Categorie, 11 livreScolaire
+LoisirViePratiqueVoyage: idLoisirViePratiqueVoyage, guide de voyage, cuisine, culture, art
+4inventorier, 0N Categorie, 11 LoisirViePratiqueVoyage
+
+Categorie: idCategorie,idLivre, idLivrePourEnfants, idLitterature, idBD_Humour, idLivreScolaire, idLoisirViePratiqueVoyage
+
+appartenir, 01 Livre, 0N Categorie
+
+Evenement: idAuteur,idCategorie,theme,date
+preparer, 0N Evenement, 1N Auteur
+Auteur: idAuteur, idEditeur,nom,prenom, titre,theme, collection
+travailler, 1N Auteur, 1N Editeur
+Editeur: idEditeur,idAuteur,idTitre,ISBN,maison_edition,date_parution
+editer ,1N Livre,11 Editeur
+Livre: idLivre,idCategorie, titre, prix, ISBN, date_Parution, img, maison_edition, auteur
+contenir, 0N Commande, 0N Livre:quantite 
+Commande: idCommande, numero
+passer, 0N Client, 11 Commande : DateCommande
+Client: idClient, nom, email, mdp
+
+rediger,0N Livre, 1N Auteur
+Exemplaire: idLivre
+correspondre, 0N Livre, 11 Exemplaire:quantité,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Categorie: idCategorie, description
+appartenir, 11 Livre, 0N Categorie
+
+Evenement: idAuteur,theme,date
+preparer, 0N Evenement, 1N Auteur
+Auteur: idAuteur,nom,prenom, titre,theme, collection
+travailler, 1N Auteur, 1N Editeur
+Editeur: idEditeur,ISBN,maison_edition,date_parution
+editer ,1N Livre,11 Editeur
+Livre: idLivre, titre, prix, ISBN, date_Parution, img, maison_edition, auteur
+contenir, 1N Commande, 11 Exemplaire:quantite 
+Commande: idCommande, numero
+passer, 0N Client, 11 Commande : DateCommande
+Client: idClient, nom, email, mdp
+
+rediger,0N Livre, 1N Auteur
+Exemplaire: idLivre
+correspondre, 0N Livre, 11 Exemplaire:quantité
+
+
+
+
+
+
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+Categorie: idCategorie, description
+appartenir, 11 Livre, 0N Categorie
+
+Evenement: idAuteur,theme,date
+preparer, 0N Evenement, 1N Auteur
+Auteur: idAuteur,nom,prenom, titre,theme, collection
+travailler, 1N Auteur, 1N Editeur
+Editeur: idEditeur,ISBN,maison_edition,date_parution
+editer ,1N Livre,11 Editeur
+Livre: idLivre, titre, prix, ISBN, date_Parution, img, maison_edition, auteur
+correspondre, 0N Livre, 11 Exemplaire:quantité
+Exemplaire: idExemplaire
+contenir, 1N Commande, 11 Exemplaire:quantite 
+Commande: idCommande, numero
+passer, 0N Client, 11 Commande : DateCommande
+Client: idClient, nom, email, mdp
+
+rediger,0N Livre, 1N Auteur
+
+
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA

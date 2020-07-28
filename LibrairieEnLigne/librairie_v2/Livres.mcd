@@ -1,0 +1,19 @@
+Categorie: idCategorie, description
+appartenir, 11 Livre, 0N Categorie
+
+Evenement: idAuteur,theme,date
+preparer, 0N Evenement, 1N Auteur
+Auteur: idAuteur,nom,prenom, titre,theme, collection
+travailler, 1N Auteur, 1N Editeur
+Editeur: idEditeur,ISBN,maison_edition,date_parution
+editer ,1N Livre,11 Editeur
+Livre: idLivre, titre, prix, ISBN, date_Parution, img, maison_edition, auteur
+correspondre, 0N Livre, 11 Exemplaire:quantité
+Exemplaire: idExemplaire
+contenir, 1N Commande, 11 Exemplaire:quantite 
+Commande: idCommande, numero
+passer, 0N Client, 11 Commande : DateCommande
+Client: idClient, nom, email, mdp
+
+rediger,0N Livre, 1N Auteur
+
