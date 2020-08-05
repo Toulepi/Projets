@@ -3,8 +3,6 @@
 /** permet de créer l'entête d'une page
  * @param $titre
  */
-
-
 function template_entete($titre){
     echo <<<EOT
                 <!doctype html>
@@ -42,18 +40,15 @@ function template_entete($titre){
                     </div>
                 </nav>
 EOT;
-
 }
 
 
 /** Permet de créer le pied de page
  * @param $titre
  */
-
 function template_pied_Page(){
     echo <<<EOT
 </div>
-
 <!-- Bootstrap JS -->
     <script src="assets/js/jQuery.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>

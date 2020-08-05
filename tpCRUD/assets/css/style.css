@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+#login_form{
+    background-color: yellow;
+}
+
+.msg{
+  width: 60%;
+}
+
+#register-form{
+    margin-bottom: 1em;
+}

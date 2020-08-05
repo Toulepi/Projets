@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <style>
+        .container
+        {
+            background-color: black;
+            color: white;
+            width: 30%;
+            margin: auto;
+            height: 400px;
+            margin-top: 15px;
+        }
+
+
+
+    </style>
+
+    <title>calculatrice</title>
+</head>
+<body>
+<div class="container">
+
+    <form>
+        <p>
+            <label > </label><input type="text"  placeholder="4" name='number1'>
+            <select name="operation" >
+                <option value="+"name="addition">+</option>
+                <option value="-"name="soustraction">-</option>
+                <option value="/"name="division">/</option>
+                <option value="*"name="multiplacation">*</option></select>
+            <label> </label><input type="text" placeholder="4" name="number2">
+            <button name="submit">=</button>
+        </p>
+        <?php
+
+
+   //if (isset($_GET['submit'])){
+$resultat1 = $_GET["number1"];
+$resultat2 = $_GET["number2"];
+$operateur = $_GET["operation"];
+
+//
+//if ($operateur=="+")
+//{
+//    echo $resultat1+$resultat2;
+//}
+//if ($operateur=="-")
+//{
+//    echo $resultat1-$resultat2;
+//}if ($operateur=="/")
+//{
+//    echo $resultat1/$resultat2;
+//}if ($operateur=="*")
+//{
+//    echo $resultat1*$resultat2;
+//}
+
+switch ($operateur) {
+    case "+":
+        echo $resultat1 + $resultat2;
+        break;
+    case "-":
+        echo $resultat1 - $resultat2;
+        break;
+    case '*':
+        echo $resultat1 * $resultat2;
+        break;
+    case '/':
+        echo $resultat1 / $resultat2;
+        break;
+}
+
+?>
+
+
+
+</div>
+
+
+
+
+
+</body>
+</html>
