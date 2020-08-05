@@ -57,7 +57,7 @@
                     $_SESSION["idUser"] = $id;
 
                     //on est dirigé vers la page de l'utilisateur en utilisant une variable d'url pour récupérer idUser
-                    header("Location:user.php?idUser=$id");  // variable d'url à supprimer
+                    header("Location:user.php");  // on aurait pu utiliser une variable d'url comme suit: ?idUser=$id
                     //var_dump($user);
                     // il faudra récupérer l'idUser afin de construire la page User
                     exit();

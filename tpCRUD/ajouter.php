@@ -2,7 +2,7 @@
     session_start();
     require_once "functions/app_utils.php";
 
-    var_dump($_SESSION);
+    //var_dump($_SESSION);
 
 ?>
 <!doctype html>
@@ -44,7 +44,7 @@
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-md-auto">
                     <li class="nav-item">
-                        <a  class="nav-link" href="">Message </a>
+                        <a  class="nav-link" href="user.php">Message </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="login.php">Déconnexion</a>

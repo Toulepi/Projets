@@ -2,9 +2,8 @@
     session_start();
 
     require_once "functions/app_utils.php";
-    $id = $_GET['idUser'];
-
-    var_dump($_SESSION);
+    //$id = $_GET['idUser'];
+    $id = $_SESSION["idUser"];
 
     // connexion à la BDD dwwm_db
     $connexion = db_connexion();
@@ -120,7 +119,7 @@
 
             $id = htmlspecialchars( $_GET['id'] );  // protection contre les injections
 
-            $sql = "DELETE FROM dwwm_db.messsage WHERE id = $id";
+            $sql = "DELETE FROM dwwm_db.messsage WHERE idUser = $id";
 
             $connexion = db_connexion();
             $req_preparee = $connexion->prepare($sql);
