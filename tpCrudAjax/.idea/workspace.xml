@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da8cbc6c-4c0e-4799-9d9a-99a433fc0ec2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Projet Converter/converter/.idea/ProjetConverter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/tpCrudAjax.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/.idea/ProjetConverter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/.idea/workspace (2).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/public/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/public/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/public/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/public/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/public/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/public/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/public/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/public/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/public/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/public/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/public/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/public/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/public/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/public/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/public/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/public/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/public/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/public/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/public/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/public/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/public/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/views/converter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Converter/views/login.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpDebugGeneral" show_pre_config_in_web_page="false" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="bd55d30f-6c64-4df0-8377-b5015c724b18" name="Wamp" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1fhBtrjfUbmSA1wb0g2X89DxiWB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../wamp64/www/tpCrudAjax.as" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Energy Efficiency\Documents\GitHub\Projets\tpCrudAjax\assets" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Wamp" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="Wamp" start_url="/tpCrudAjax.as">
+      <method v="2">
+        <option name="FtpUpload" enabled="true">
+          <server_id>7215546c-44ab-429f-8193-7bef28b380cb</server_id>
+          <server_name>Wamp_local</server_name>
+          <group_name />
+          <path>C:\wamp64\www</path>
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="Wamp" start_url="/tpCrudAjax.as">
+      <method v="2">
+        <option name="FtpUpload" enabled="true">
+          <server_id>7215546c-44ab-429f-8193-7bef28b380cb</server_id>
+          <server_name>Wamp_local</server_name>
+          <group_name />
+          <path>C:\wamp64\www</path>
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da8cbc6c-4c0e-4799-9d9a-99a433fc0ec2" name="Default Changelist" comment="" />
+      <created>1596660713706</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596660713706</updated>
+      <workItem from="1596660750146" duration="70000" />
+      <workItem from="1596663099218" duration="653000" />
+      <workItem from="1596663807653" duration="10629000" />
+      <workItem from="1596674608472" duration="7318000" />
+      <workItem from="1596682159353" duration="6645000" />
+      <workItem from="1596695859899" duration="13485000" />
+      <workItem from="1596709401511" duration="456000" />
+      <workItem from="1596712015399" duration="1640000" />
+      <workItem from="1596714642653" duration="6000" />
+      <workItem from="1596723037284" duration="3729000" />
+      <workItem from="1596761551303" duration="6625000" />
+      <workItem from="1596784174635" duration="3156000" />
+      <workItem from="1596821680656" duration="10340000" />
+      <workItem from="1596832115096" duration="1945000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="159" y="0" key="#CLI_Interpreters" timestamp="1596764038891">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="159" y="0" key="#CLI_Interpreters/0.0.1366.738@0.0.1366.738" timestamp="1596764038891" />
+    <state x="1549" y="0" key="#Deployment" timestamp="1596682793073">
+      <screen x="1366" y="0" width="1440" height="900" />
+    </state>
+    <state x="174" y="0" key="#Deployment/0.0.1366.738/1366.0.1440.900@0.0.1366.738" timestamp="1596663991995" />
+    <state x="1549" y="0" key="#Deployment/0.0.1366.738/1366.0.1440.900@1366.0.1440.900" timestamp="1596682793073" />
+    <state x="1686" y="0" key="#Options" timestamp="1596682832923">
+      <screen x="1366" y="0" width="1440" height="900" />
+    </state>
+    <state x="304" y="0" key="#Options/0.0.1366.738/1366.0.1440.900@0.0.1366.738" timestamp="1596663509846" />
+    <state x="1686" y="0" key="#Options/0.0.1366.738/1366.0.1440.900@1366.0.1440.900" timestamp="1596682832923" />
+    <state x="159" y="0" key="#Servers" timestamp="1596663238853">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="159" y="0" key="#Servers/0.0.1366.738/1366.0.1440.900@0.0.1366.738" timestamp="1596663238853" />
+    <state x="133" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596832078802">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="133" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/1366.0.1440.900@0.0.1366.738" timestamp="1596832078802" />
+    <state x="1506" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/1366.0.1440.900@1366.0.1440.900" timestamp="1596682799441" />
+    <state x="133" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1596763402690" />
+    <state x="1798" y="138" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596665233282">
+      <screen x="1366" y="0" width="1440" height="900" />
+    </state>
+    <state x="1798" y="138" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738/1366.0.1440.900@1366.0.1440.900" timestamp="1596665233282" />
+    <state x="409" y="66" key="FileChooserDialogImpl" timestamp="1596663976738">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="409" y="66" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1440.900@0.0.1366.738" timestamp="1596663976738" />
+    <state width="893" height="73" key="GridCell.Tab.0.bottom" timestamp="1596702130891">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="459" height="102" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1440.900@1366.0.1440.900" timestamp="1596670290800" />
+    <state width="893" height="73" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1596702130891" />
+    <state width="893" height="73" key="GridCell.Tab.0.center" timestamp="1596702130890">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="459" height="102" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1440.900@1366.0.1440.900" timestamp="1596670290799" />
+    <state width="893" height="73" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1596702130890" />
+    <state width="893" height="73" key="GridCell.Tab.0.left" timestamp="1596702130890">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="459" height="102" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1440.900@1366.0.1440.900" timestamp="1596670290799" />
+    <state width="893" height="73" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1596702130890" />
+    <state width="893" height="73" key="GridCell.Tab.0.right" timestamp="1596702130890">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="459" height="102" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1440.900@1366.0.1440.900" timestamp="1596670290800" />
+    <state width="893" height="73" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1596702130890" />
+    <state x="1943" y="357" key="NewPhpFileDialog" timestamp="1596680303036">
+      <screen x="1366" y="0" width="1440" height="900" />
+    </state>
+    <state x="1943" y="357" key="NewPhpFileDialog/0.0.1366.738/1366.0.1440.900@1366.0.1440.900" timestamp="1596680303036" />
+    <state x="74" y="0" key="SettingsEditor" timestamp="1596764043608">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="74" y="0" key="SettingsEditor/0.0.1366.738/1366.0.1440.900@0.0.1366.738" timestamp="1596663218289" />
+    <state x="74" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1596764043608" />
+    <state x="1869" y="261" key="com.jetbrains.plugins.webDeployment.ui.UploadBeforeRunTaskDialog" timestamp="1596682794926">
+      <screen x="1366" y="0" width="1440" height="900" />
+    </state>
+    <state x="477" y="214" key="com.jetbrains.plugins.webDeployment.ui.UploadBeforeRunTaskDialog/0.0.1366.738/1366.0.1440.900@0.0.1366.738" timestamp="1596664028655" />
+    <state x="1869" y="261" key="com.jetbrains.plugins.webDeployment.ui.UploadBeforeRunTaskDialog/0.0.1366.738/1366.0.1440.900@1366.0.1440.900" timestamp="1596682794926" />
+  </component>
+</project>

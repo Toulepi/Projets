@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@500&display=swap');
+
+        /* GENERAL */
+
+*{
+    box-sizing: border-box;
+    font-family: 'Mali',cursive;
+}
+h2,h3,h4,p{
+    text-align: center;
+}
+
+#titre{
+    background-color: #8fd19e;
+    padding: .8rem;
+}
+
+#login_form, #register_form, #game-form{
+    width: 60%;
+    margin: 2em auto;
+    text-align: justify;
+}
+
+#game-form{
+    padding: 0 1rem;
+    background-color: #fcf8e3;
+}
+#score-body{
+    text-align: center;
+}
+
+#msg-defi{
+    color: #8fd19e;
+    margin: 1rem;
+}
+
+.score{
+    width: 80%;
+    margin: 2em auto;
+}
+
+button[type="reset"]{
+    float: right!important;
+}
+
+.comment{
+    width: 80%;
+    margin: 1.5em auto ;
+    text-align: center;
+}
+
+
+        /*  FOOTER */
+
+footer{
+    margin-bottom: 0;
+}
