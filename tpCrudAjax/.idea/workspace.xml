@@ -20,14 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da8cbc6c-4c0e-4799-9d9a-99a433fc0ec2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Projet Converter/converter/.idea/ProjetConverter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/tpCrudAjax.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Projet Converter/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Projet Converter/.idea/ProjetConverter.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Projet Converter/.idea/misc.xml" beforeDir="false" />
@@ -57,6 +49,14 @@
       <change beforePath="$PROJECT_DIR$/../Projet Converter/public/js/bootstrap.min.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Projet Converter/views/converter.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Projet Converter/views/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/db/creation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/assets/db/creation.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game.php" beforeDir="false" afterPath="$PROJECT_DIR$/game.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Wamp" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="Wamp" start_url="/tpCrudAjax.as">
+    <configuration name="Wamp" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" server_name="Wamp" start_url="/tpCrudAjax.as">
       <method v="2">
         <option name="FtpUpload" enabled="true">
           <server_id>7215546c-44ab-429f-8193-7bef28b380cb</server_id>
@@ -142,6 +142,7 @@
       <workItem from="1596784174635" duration="3156000" />
       <workItem from="1596821680656" duration="10340000" />
       <workItem from="1596832115096" duration="1945000" />
+      <workItem from="1597003448637" duration="6772000" />
     </task>
     <servers />
   </component>
@@ -170,20 +171,20 @@
     </state>
     <state x="174" y="0" key="#Deployment/0.0.1366.738/1366.0.1440.900@0.0.1366.738" timestamp="1596663991995" />
     <state x="1549" y="0" key="#Deployment/0.0.1366.738/1366.0.1440.900@1366.0.1440.900" timestamp="1596682793073" />
-    <state x="1686" y="0" key="#Options" timestamp="1596682832923">
-      <screen x="1366" y="0" width="1440" height="900" />
+    <state x="304" y="0" key="#Options" timestamp="1597004129881">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="304" y="0" key="#Options/0.0.1366.738/1366.0.1440.900@0.0.1366.738" timestamp="1596663509846" />
+    <state x="304" y="0" key="#Options/0.0.1366.738/1366.0.1440.900@0.0.1366.738" timestamp="1597004129881" />
     <state x="1686" y="0" key="#Options/0.0.1366.738/1366.0.1440.900@1366.0.1440.900" timestamp="1596682832923" />
     <state x="159" y="0" key="#Servers" timestamp="1596663238853">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="159" y="0" key="#Servers/0.0.1366.738/1366.0.1440.900@0.0.1366.738" timestamp="1596663238853" />
-    <state x="133" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596832078802">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="1506" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597006177628">
+      <screen x="1366" y="0" width="1440" height="900" />
     </state>
     <state x="133" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/1366.0.1440.900@0.0.1366.738" timestamp="1596832078802" />
-    <state x="1506" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/1366.0.1440.900@1366.0.1440.900" timestamp="1596682799441" />
+    <state x="1506" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/1366.0.1440.900@1366.0.1440.900" timestamp="1597006177627" />
     <state x="133" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1596763402690" />
     <state x="1798" y="138" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596665233282">
       <screen x="1366" y="0" width="1440" height="900" />

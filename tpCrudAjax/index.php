@@ -118,7 +118,7 @@ if ( ($method == "POST") && !empty($method) ) {
         <!-- Contenu page de login -->
         <div id="login_form" >
             <h3>Login Form</h3>
-            <form method="post" autocomplete="on">
+            <form method="post" autocomplete="off">
 
                 <!-- On récupère l'idUser via l'input de type "hidden" -->
                 <input type="hidden" name="id"

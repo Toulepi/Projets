@@ -33,7 +33,7 @@
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-md-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php">Deconnexion</a>
+                        <a class="nav-link" href="index.php" style="color: orangered;font-weight: bold">Deconnexion</a>
                     </li>
                 </ul>
             </div>
@@ -53,7 +53,7 @@
                 echo "<h3>".$x.' x '.$y."</h3>";
                 $product = $x*$y;
 
-                var_dump($product);
+                //var_dump($product);
 
                 // On modifie les variables de session 'product' et 'productString'
                 $_SESSION["product"] = $product;
@@ -68,26 +68,26 @@
                 <input type="number" class="form-control" id="reponse" placeholder="Votre réponse ici" name="reponse" required>
             </div>
 
-             <?php
-             /*
-                //var_dump((int)$_SESSION['reponse']);
-                //var_dump($_SESSION['product']);
-
-                 if ( (int)$_SESSION['reponse'] == $_SESSION["product"]) {
-
-                     echo "<h4 id='reponse' style='color: #1e7e34'>" . 'Le résultat est correct: Félicitions!!!'. "</h4>";
-                     //$correct = 'OUI';
-
-                 } else {
-
-                     echo "<h4 style='color: red'>" . 'Le résultat est incorrect: essayez encore!!!'."</h4>";
-                    // $correct = 'NON';
-                 }
-                */
-            ?>
             <br>
             <button id="submit_ajouter" type="submit" class="btn btn-success" >Valider</button>
         </form>
+        <div id="msg">
+            <?php
+                $product = $_SESSION["product"];
+                $reponse = (int)$_SESSION["reponse"];
+                //var_dump($reponse);
+
+                //var_dump($_POST['reponse']);
+
+                if ( !empty($reponse) && ($reponse == $product) ) {
+                    echo "<h4 id='correct'>" . 'Le résultat est correct: Félicitions!!!'. "</h4>";
+                } elseif (!empty($reponse) && ($reponse !== $product) ){
+                    echo "<h4 id='incorrect'>" . 'Le résultat est incorrect: essayez encore!!!'."</h4>";
+                }
+               // $_SESSION['reponse'];
+                //var_dump($_SESSION['reponse']);
+            ?>
+        </div>
     </div>
     <div class="score">
         <table class="table table-hover">
@@ -95,7 +95,7 @@
             <tr>
                 <th scope="col">ID</th>
                 <th scope="col">MULTIPLICATION</th>
-                <th scope="col">RESPONSE</th>
+                <th scope="col">REPONSE</th>
                 <th scope="col">CORRECT ?</th>
             </tr>
             </thead>

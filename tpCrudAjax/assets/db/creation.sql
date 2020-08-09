@@ -37,5 +37,3 @@ values ('11x12',132,'OUI',1),
 /*drop database game_db;*/
 
 
-
-

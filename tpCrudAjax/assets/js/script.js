@@ -13,12 +13,17 @@ $(document).ready(function (){
         chargeDatas();
     });
 
+    // Faire disparaître le message de succès ou d'erreur
+    $("#msg").dblclick(function(){
+        $(this).fadeOut(1000);
+    });
+
 })
 
 function insert() {
 
     let product ;
-    let reponse = $("#reponse").val();  // ok
+    let reponse = $("#reponse").val();
    // alert(reponse);
     let correct
     let idUser
@@ -35,7 +40,6 @@ function insert() {
 
         // on recharge les fonctions rand () afin de regénerer de nouveaux nombres
         // think about doing it with Ajax
-
 
     })
 }
