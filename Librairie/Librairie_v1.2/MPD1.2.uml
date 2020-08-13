@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.theme</OriginalElement>
+  <nodes>
+    <node x="624.9375" y="475.0">bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.commentaire</node>
+    <node x="467.56249999999994" y="680.0">bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.lignecommande</node>
+    <node x="1128.375" y="488.0">bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.theme</node>
+    <node x="1128.375" y="218.0">bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.rubrique</node>
+    <node x="68.75" y="475.0">bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.exemplaire</node>
+    <node x="518.625" y="205.0">bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.auteur</node>
+    <node x="372.81249999999994" y="501.5">bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.livresauteur</node>
+    <node x="273.62499999999994" y="140.0">bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.livre</node>
+    <node x="849.375" y="462.0">bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.commande</node>
+    <node x="695.9375" y="0.0">bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.catalogue</node>
+    <node x="0.0" y="218.0">bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.editeur</node>
+    <node x="767.625" y="205.0">bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.commentaire" target="bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.livre">
+      <point x="-51.0" y="-71.0" />
+      <point x="675.9375" y="432.0" />
+      <point x="461.12499999999994" y="432.0" />
+      <point x="75.0" y="136.0" />
+    </edge>
+    <edge source="bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.lignecommande" target="bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.exemplaire">
+      <point x="-45.75" y="-44.5" />
+      <point x="513.3125" y="655.0" />
+      <point x="156.25" y="655.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.exemplaire" target="bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.editeur">
+      <point x="-43.75" y="-71.0" />
+      <point x="0.0" y="58.0" />
+    </edge>
+    <edge source="bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.commande" target="bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.client">
+      <point x="0.0" y="-84.0" />
+      <point x="978.875" y="442.0" />
+      <point x="934.125" y="442.0" />
+      <point x="55.5" y="71.0" />
+    </edge>
+    <edge source="bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.livresauteur" target="bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.auteur">
+      <point x="38.75" y="-44.5" />
+      <point x="489.06249999999994" y="442.0" />
+      <point x="633.125" y="442.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.livre" target="bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.catalogue">
+      <point x="0.0" y="-136.0" />
+      <point x="386.12499999999994" y="115.0" />
+      <point x="739.6875" y="115.0" />
+      <point x="-43.75" y="45.0" />
+    </edge>
+    <edge source="bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.exemplaire" target="bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.livre">
+      <point x="43.75" y="-71.0" />
+      <point x="200.0" y="442.0" />
+      <point x="311.12499999999994" y="442.0" />
+      <point x="-75.0" y="136.0" />
+    </edge>
+    <edge source="bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.livresauteur" target="bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.livre">
+      <point x="-38.75" y="-44.5" />
+      <point x="411.56249999999994" y="442.0" />
+      <point x="386.12499999999994" y="442.0" />
+      <point x="0.0" y="136.0" />
+    </edge>
+    <edge source="bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.rubrique" target="bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.catalogue">
+      <point x="0.0" y="-58.0" />
+      <point x="1226.375" y="115.0" />
+      <point x="827.1875" y="115.0" />
+      <point x="43.75" y="45.0" />
+    </edge>
+    <edge source="bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.theme" target="bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.rubrique">
+      <point x="0.0" y="-58.0" />
+      <point x="0.0" y="58.0" />
+    </edge>
+    <edge source="bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.commentaire" target="bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.client">
+      <point x="51.0" y="-71.0" />
+      <point x="777.9375" y="442.0" />
+      <point x="823.125" y="442.0" />
+      <point x="-55.5" y="71.0" />
+    </edge>
+    <edge source="bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.lignecommande" target="bd13e9b2-533e-4a9e-9f19-8a21bec3a241.TABLE:librairie_db.commande">
+      <point x="45.75" y="-44.5" />
+      <point x="604.8125" y="655.0" />
+      <point x="978.875" y="655.0" />
+      <point x="0.0" y="84.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7993662864385297" x="735.7696210559697" y="450.30521642619317" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+

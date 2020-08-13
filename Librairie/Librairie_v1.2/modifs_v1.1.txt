@@ -1,0 +1,14 @@
+Cette version v1.2 correspond à la modification de la version v1.1 du Projet Librairie
+
+Sur la version1 (v1.1) du projet, Les relations ManyToMany entre "Exemplaire et Commande" d'une part
+et "Livre et Auteur" d'autre part ont été ajoutées.
+
+NB: Ces relations ManyToMany sont unidirectionnelles, 
+
+En effet, 
+- on peut accéder à "Exemplaire" depuis la table "Commande" mais pas l'inverse (accès à Commande depuis Exemplaire)
+- on peut accéder aux livres (Livre) redigés par un auteur (Auteur) depuis la table Auteur mais pas l'inverse.
+
+La relation Livre-Auteur peut-être considérée comme bidirectionnelle, dans ce cas il faudra supprimer la propriété 'auteur' dans la
+table "Livre" qui devient redondant.
+
