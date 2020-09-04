@@ -1,0 +1,180 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Bambara Library {% endblock %}
+
+{% block body %}
+    <header>
+
+        <!--barre de navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav  mt-2 mt-lg-0">
+                    <a class="nav-link nav-item" href="#"><img src="https://img.icons8.com/nolan/64/e-learning-2.png"
+                                                               alt="online book"/>E-Librairie</a>
+                </div>
+                <div id="search" class="mr-auto">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Rechercher un livre, un auteur"
+                               aria-label="Search">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="navbar-nav form-inline my-2 my-lg-0">
+                    <a class="nav-item nav-link" href="connexion"><img
+                                src="https://img.icons8.com/nolan/25/user-folder.png"/>Compte connexion</a>
+                    <a class="nav-link nav-item" href="panier"><img
+                                src="https://img.icons8.com/nolan/25/add-to-basket.png"/>Panier</a>
+
+                    <ul class="submenu menu vertical" data-submenu >
+                        <table class="tabPanier">
+                            <thead>
+                            <tr>
+                                <th>Livres</th>
+                                <th>Quantité</th>
+                                <th>Sous total</th>
+                                <th>Actions</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                                {% for lc in lignesCmds %}
+                                    <tr>
+                                        <td>{{ lc.ligne_cmd }}</td>
+                                        <td class="align-center"> {{ lc.ligne_cmd.quantite }} </td>
+                                        <td class="align-right">
+                                            <strong>{{ lc.ligne_cmd.sousTotal }} €</strong>
+                                        </td>
+                                        <td class="text-right">
+                                            <a class="panierActionSupprimer" href="{{ path('panier_supprimer',{id:lc.ligne_cmd.exemplaire.id}) }}">
+                                                <strong><i class="fas fa-trash-alt fa-lg"></i> </strong>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                {% else %}
+                                    <tr>
+                                        <td colspan="4">Le panier est vide</td>
+                                    </tr>
+                                {% endfor %}
+
+                                {% if total > 0 %}
+
+                                    <tr class="total">
+                                        <td colspan="2" class="text-right"><strong>TOTAL</strong></td>
+                                        <td class="text-right primary"><strong>{{ total }}</strong></td>
+                                        <td class="text-right primary"></td>
+                                    </tr>
+                                {% endif %}
+                            </tbody>
+                        </table>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--fin de la barre nav-->
+    </header>
+
+    <body>
+    <div class="row">
+        <div class="col dropdown">
+            <a class="btn btn-secondary btn-block">
+                CATALOGUES
+            </a>
+        </div>
+
+        <div class="w-100"></div>
+
+        {% for cat in catalogue|sort %}
+            <div class="col dropdown">
+                <div class="dropdown">
+                    <button class="dropdown-item" href="#">{{ cat.motCle }} </button>
+                    <div class="dropdown-content">
+                        {% for rub in cat.rubrique |sort %}  <!-- Pour chaque catégorie on affiche toutes ses rubriques -->
+                            <a href="#" target="_blank">{{ rub.classement }}</a> <!-- path('librairie_rubrique' -->
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <hr>
+    <div class="col">
+        <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="13000">
+            <div class="carousel-inner">
+                <!--
+                <div class="carousel-item active">
+                    <img class="d-block w-100 " src="../../img/carImg1.jpg" alt="First slide">
+                </div>
+                -->
+                <div class="carousel-item active">
+                    <img class="d-block w-100 " src="../../img/carImg2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 " src="../../img/carImg4.jpg" alt="Third slide">
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="">
+        <h2>Sélection du mois</h2>
+
+        <div class="row">
+            {% for exemplaire in exemplaires|sort %}
+
+                <div id="selection" class="col-sm-3 col">  <!-- d-block can be useful here-->
+                    <hr>
+                    <h4>{{ exemplaire.livre.theme }}</h4>
+                    <img src="{{ 'img/couvertureLivre/' }}{{ exemplaire.livre.imageName }}" alt="book image">
+                    <blockquote>{{ exemplaire.livre.resumer }}</blockquote>
+                    <a href="{{ path('panier_ajouter',{id:exemplaire.id}) }}"><i class="fas fa-shopping-cart"
+                                                                            style="font-size: 1.5rem"></i> </a>
+                    <a style="font-size: 1.5rem">{{ exemplaire.prixUnitaire }}€</a>
+                </div>
+            {% endfor %}
+        </div>
+
+    </div>
+
+    </body>
+    <hr>
+    <footer id="footerpad">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h6>Rejoignez-nous sur</h6> <br>
+                    <img src="https://img.icons8.com/nolan/25/facebook.png" alt="facebook"/>
+                    <img src="https://img.icons8.com/nolan/25/pinterest.png" alt="pinterest"/>
+                    <img src="https://img.icons8.com/nolan/25/instagram-new.png" alt="instagram"/>
+                </div>
+
+                <div class="col-sm">
+                    <h6>Contact</h6> <br>
+                    <a href="https://www.google.fr/maps/dir//92230+Gennevilliers/@48.9326635,2.230054,12z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x47e66f56b7677b3d:0x1c0b82c6e1d88050!2m2!1d2.3000941!2d48.9326847!3e3">
+                        Adresse: 9B rue de la Sablière<br>92230 Gennevilliers </a> <br>
+                    <a>Ligne 13 </a><br>
+                    <a>RER C</a><br>
+                    <a>Bus 177, 138, 366</a><br>
+                </div>
+
+                <div class="col-sm">
+                    <h6>Besoin d'aide </h6><br>
+                    <a href="https://translate.google.fr/?hl=fr#view=home&op=translate&sl=fr&tl=en">Traduction de la
+                        page</a><br>
+                    <a href="#">Suivi de commande</a><br>
+                    <a href="#">Livraison frais de port</a><br>
+                    <a href="https://pouruneautreeconomie.fr/moyen-de-paiement-en-ligne/">Paiement sécurisé</a><br>
+                    <a href="#">Nous Contacter</a><br>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright text-center">Copyright &copy; 2020 E-Librairie</p>
+        </div>
+    </footer>
+{% endblock %}
+
+

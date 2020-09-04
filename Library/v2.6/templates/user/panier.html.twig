@@ -1,0 +1,114 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    Mon Panier
+{% endblock %}
+
+{% block body %}
+
+    <header>
+        <!--barre de navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" ></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <div class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <a class="nav-link nav-item" href="/"><img src="https://img.icons8.com/nolan/64/e-learning-2.png"/>E-Librairie</a>
+                </div>
+
+
+                <div class="navbar-nav form-inline my-2 my-lg-0">
+                    <a class="nav-item nav-link" href="connexion"><img src="https://img.icons8.com/nolan/25/user-folder.png"/>Compte connexion</a>
+                </div>
+
+                <div class="navbar-nav form-inline my-2 my-lg-0">
+                    <a class="nav-item nav-link" href="paiement"><img src="https://img.icons8.com/nolan/25/online-payment-with-a-credit-card.png"/>Paiement</a>
+                </div>
+
+            </div>
+        </nav>
+        <!--fin de la barre nav-->
+    </header>
+
+    <div class="row">
+        <div class="col-sm-8">
+            <h5>Mon panier</h5>
+        </div>
+
+        <div class="col-sm-4">
+            <h5>Récapitulatif</h5>
+
+            <div class="d-none d-sm-block">
+                <div class="row no-gutters border-bottom">
+                    <div class="col-8  m-0 py-2 pl-3">
+                        <p class="m-0 orange"><strong>Panier</strong> <small>(0 article)</small></p>
+                        <ul class="liste-square grisbleumoyen small m-0 pl-3">
+                        </ul>
+                    </div>
+                    <div class="col-4 m-0 py-2 pr-3 text-right">
+                        <p class="orange mt-4 mt-sm-0">0<small class="font-weight-light">,00&nbsp;€</small></p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row no-gutters">
+                <div class="col-5  m-0 py-2 pl-3">
+                    <p class="mt-1 orange text-uppercase"><strong>total</strong></p>
+                </div>
+                <div class="col-7 m-0 py-2 pr-3 text-right">
+                    <p class="orange h4 m-0">
+                        <span data-container="total-price" data-price-part="0">0</span><small class="font-weight-light">,<span data-container="total-price" data-price-part="1">00</span>&nbsp;€</small>
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <h8>Paiement 100% sécurisé</h8><br>
+                <img src="https://img.icons8.com/nolan/15/visa.png"/>
+                <img src="https://img.icons8.com/nolan/15/mastercard-credit-card.png"/>
+                <img src="https://img.icons8.com/nolan/15/paypal.png"/>
+                <img src="https://img.icons8.com/nolan/15/bank-card-back-side.png"/>
+            </div>
+        </div>
+    </div>
+
+<hr>
+    <footer id="footerpad">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm">
+                    <h6>Rjoignez-nous sur</h6> <br>
+                    <img src="https://img.icons8.com/nolan/25/facebook.png"/><img src="https://img.icons8.com/nolan/25/pinterest.png"/><img src="https://img.icons8.com/nolan/25/instagram-new.png"/>
+                </div>
+
+                <div class="col-sm">
+                    <h6>Contact</h6> <br>
+                    <a href="https://www.google.fr/maps/dir//92230+Gennevilliers/@48.9326635,2.230054,12z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x47e66f56b7677b3d:0x1c0b82c6e1d88050!2m2!1d2.3000941!2d48.9326847!3e3">adresse : 92230 Gennevilliers </a> <br>
+                    <a>Ligne 13 </a><br>
+                    <a>RER C</a><br>
+                    <a>Bus 177, 138, 366</a><br>
+                </div>
+
+                <div class="col-sm">
+                    <h6>Besoin d'aide </h6><br>
+                    <a href="https://translate.google.fr/?hl=fr#view=home&op=translate&sl=fr&tl=en">traduction de page</a><br>
+                    <a href="#">suivi de commande</a><br>
+                    <a href="#">livraison frais de port</a><br>
+                    <a href="https://pouruneautreeconomie.fr/moyen-de-paiement-en-ligne/">Paiement sécurise</a><br>
+                    <a href="#">Nous Contacter</a><br>
+
+                </div>
+            </div>
+            <p class="copyright text-center">Copyright &copy; Librairie 2020</p>
+        </div>
+    </footer>
+
+{% endblock %}
+
+

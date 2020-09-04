@@ -1,0 +1,77 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    Liste clients
+{% endblock %}
+
+{% block body %}
+    <header>
+        <!--barre de navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <img src="https://img.icons8.com/nolan/50/book.png "/>
+            <a class="navbar-brand" ></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <div class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <a class="nav-link nav-item" href="/">E-Librairie</a>
+                </div>
+
+                <div class="navbar-nav form-inline my-2 my-lg-0">
+                    <a class="nav-item nav-link" href="#"><img src="https://img.icons8.com/nolan/25/user-folder.png"/>Compte</a>
+                </div>
+            </div>
+        </nav>
+        <!--fin de la barre nav-->
+    </header>
+
+    <h3>{{ titre_page }}</h3>
+    <p>
+        <a href="{{ path('ajouter') }}">Ajouter un client</a>
+    </p>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>email</th>
+            <th>Mdp</th>
+            <th>Nom Client</th>
+            <th colspan="2">Actions</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        {% for client in clients | sort %}
+            <tr>
+                <td>{{ client.id }}</td>
+                <td>{{ client.email }}</td>
+                <td>{{ client.motDePasse }}</td>
+                <td>{{ client.nomClient }}</td>
+                <td>
+                    <a href="#"><i class="fas fa-user-edit"></i></a>
+                </td>
+                <td>
+                    <a href="#"><i class="far fa-trash-alt"></i></a>
+                </td>
+
+            </tr>
+        {% else %}
+
+            <tr>
+                <td colspan="6"> Aucun client enregistré en BDD</td>
+            </tr>
+
+        {% endfor %}
+        </tbody>
+    </table>
+    <footer id="footerpad" class="container fixed-bottom">
+        <p class="copyright text-center">Copyright &copy; 2020 Librairie</p>
+    </footer>
+
+{% endblock %}
+
+
+

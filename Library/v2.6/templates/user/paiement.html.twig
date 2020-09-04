@@ -1,0 +1,132 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    Paiement
+{% endblock %}
+
+{% block body %}
+
+    <header>
+        <!--barre de navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" ></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <div class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <a class="nav-link nav-item" href="/"><img src="https://img.icons8.com/nolan/64/e-learning-2.png"/>E-Librairie</a>
+                </div>
+
+                <div>
+                    <img src="https://img.icons8.com/nolan/64/secured-by-alarm-system.png"/>
+                </div>
+
+            </div>
+        </nav>
+        <!--fin de la barre nav-->
+    </header>
+
+    <form>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputPassword4">Password</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputAddress">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="form-group">
+            <label for="inputAddress2">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="inputcommune">Commune</label>
+                <input type="text" class="form-control" id="inputcommune" placeholder="Ville">
+            </div>
+            <div class="form-group col-md-2">
+                <label for="inputcp">Code postale</label>
+                <input type="text" class="form-control" id="inputcp">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputnum">Numéro télèphone</label>
+                <input type="number" class="form-control" id="inputnum">
+            </div>
+        </div>
+        <hr>
+        <div class="form-group">
+            <div>
+                <h7>Information carte bancaire</h7>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Votre prenom">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Votre nom">
+                    </div>
+                </div> <br>
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label for="inputcommune">N°de carte</label>
+                        <input type="number" class="form-control" id="inputnum" placeholder="0000 0000 0000 0000">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputcp">Date d'expiration</label>
+                        <input type="number" class="form-control" id="00/00">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputnum">Cryptogramme</label>
+                        <input type="number" class="form-control" id="000">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Valider</button>
+    </form>
+
+<hr>
+    
+    <footer id="footerpad">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm">
+                    <h6>Rjoignez-nous sur</h6> <br>
+                    <img src="https://img.icons8.com/nolan/25/facebook.png"/><img src="https://img.icons8.com/nolan/25/pinterest.png"/><img src="https://img.icons8.com/nolan/25/instagram-new.png"/>
+                </div>
+
+                <div class="col-sm">
+                    <h6>Contact</h6> <br>
+                    <a href="https://www.google.fr/maps/dir//92230+Gennevilliers/@48.9326635,2.230054,12z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x47e66f56b7677b3d:0x1c0b82c6e1d88050!2m2!1d2.3000941!2d48.9326847!3e3">adresse : 92230 Gennevilliers </a> <br>
+                    <a>Ligne 13 </a><br>
+                    <a>RER C</a><br>
+                    <a>Bus 177, 138, 366</a><br>
+                </div>
+
+                <div class="col-sm">
+                    <h6>Besoin d'aide </h6><br>
+                    <a href="https://translate.google.fr/?hl=fr#view=home&op=translate&sl=fr&tl=en">traduction de page</a><br>
+                    <a href="#">suivi de commande</a><br>
+                    <a href="#">livraison frais de port</a><br>
+                    <a href="https://pouruneautreeconomie.fr/moyen-de-paiement-en-ligne/">Paiement sécurise</a><br>
+                    <a href="#">Nous Contacter</a><br>
+
+                </div>
+            </div>
+            <p class="copyright text-center">Copyright &copy; Librairie 2020</p>
+        </div>
+    </footer>
+
+{% endblock %}
+
+
+
